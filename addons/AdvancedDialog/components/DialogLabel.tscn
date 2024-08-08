@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://8r6sdwr80dk4"]
+
+[node name="DialogLabel" type="Label"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -24.5
+offset_top = -35.0
+offset_right = 24.5
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Dialog"
