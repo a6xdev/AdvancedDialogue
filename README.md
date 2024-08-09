@@ -9,7 +9,7 @@
 - Simple Integration
 
 ## Requirements:
- - Godot 4
+ - Godot v4.3[https://godotengine.org/download/archive/4.3-rc3]
 
 ## Getting Started:
 
