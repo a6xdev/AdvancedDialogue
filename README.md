@@ -2,12 +2,16 @@
 
 **AdvancedDialog** is a versatile plugin for Godot, designed primarily for 3D games, but fully accessible for 2D projects. With this plugin, you can add voice dialogue and subtitles automatically.
 
-## Key Features:
+## Features:
 
 - Multilingual support
+- Simple to use
 - Simple Integration
 
-## How to Use:
+## Requirements:
+ - Godot 4
+
+## Getting Started:
 
 ### 2. Installation
 1. Download the AdvancedDialog plugin and add it to your Godot project.
