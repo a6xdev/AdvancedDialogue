@@ -13,14 +13,14 @@
 
 ## Getting Started:
 
-### 2. Installation
+### Installation
 1. Download the AdvancedDialog plugin and add it to your Godot project.
 2. Activate the plugin in Project > Project Settings > Plugins.
 
-## 3. Initial Setup
+### Initial Setup
  1. Instantiate the Scene: Add the DialogComponent node to your scene.
 
-## 4. How to Use
+### How to Use
  1. In the Inspector, select the DialogComponent node.
  2. Add a new element to the inspector.
     - ![image](https://github.com/user-attachments/assets/fab6a2bb-76dd-4980-8b05-69ef40655f9a)
@@ -32,7 +32,7 @@
     - audio: The audio file corresponding to the dialogue.
     - subtitles: The corresponding subtitle text. 
 
-## 5. Using AdvancedDialog in Cutscenes
+### 5. Using AdvancedDialog in Cutscenes
  - Automatic Configuration: When starting the scene, the plugin automatically loads the current language defined in the game settings.
  - Dialog Execution: In AnimationPlayer or directly in the script, call the play_dialog() function to start playing the audio and display the subtitle.
  - Subtitles will be automatically displayed during audio playback, disappearing at the end.
