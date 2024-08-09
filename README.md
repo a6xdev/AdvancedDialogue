@@ -20,14 +20,13 @@
  1. In the Inspector, select the AdvancedDialog node.
  2. Add a new element to the inspector.
 ![image](https://github.com/user-attachments/assets/fab6a2bb-76dd-4980-8b05-69ef40655f9a)
-
  4. Create a new "DialogResource" for each language // **NOTE: You can do this directly in AnimationPlayer to speed up your time :)**
 ![image](https://github.com/user-attachments/assets/cbdaeacb-e572-4ed6-9e4b-f3b0d20106ff)
 
  6. Within "DialogResource", fill in the options:
- - language: The language code (e.g. en_us, pt_br).
- - audio: The audio file corresponding to the dialogue.
- - subtitles: The corresponding subtitle text.
+    - language: The language code (e.g. en_us, pt_br).
+    - audio: The audio file corresponding to the dialogue.
+    - subtitles: The corresponding subtitle text. 
 
 ## 5. Using AdvancedDialog in Cutscenes
  - Automatic Configuration: When starting the scene, the plugin automatically loads the current language defined in the game settings.
