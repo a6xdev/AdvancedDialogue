@@ -16,10 +16,13 @@
 ## 3. Configuração Inicial
  1. Instancie a Cena: Adicione o nó AdvancedDialog à sua cena.
 
-## 4. Adicionando Idiomas
+## 4. Como Usar
  1. No Inspetor, selecione o nó AdvancedDialog.
- 2. Utilize o botão Add Language para adicionar um novo idioma ao sistema.
- 3. Para cada idioma, defina:
+ 2. Adicione um novo elemento no inspector.
+![image](https://github.com/user-attachments/assets/fab6a2bb-76dd-4980-8b05-69ef40655f9a)
+ 3. Crie um novo "DialogResource" para cada idioma // **OBS: Você pode fazer isso direto no AnimationPlayer agilizar seu tempo :)**
+ 5. ![image](https://github.com/user-attachments/assets/cbdaeacb-e572-4ed6-9e4b-f3b0d20106ff)
+ 6. Dentro do "DialogResource", preencha as opções:
     - language: O código do idioma (por exemplo, en_us, pt_br).
     - audio: O arquivo de áudio correspondente ao diálogo.
     - subtitles: O texto da legenda correspondente.
