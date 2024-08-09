@@ -2,7 +2,7 @@
 
 Thanks for visiting my Plugin! :)
 If you could help me on Patreon I would greatly appreciate it!
-[![Patreon](https://img.shields.io/badge/Patreon-Support%20this%20Project-%23f1465a?style=for-the-badge)](patreon.com/a6xdev)
+[![Patreon](https://img.shields.io/badge/Patreon-Support%20this%20Project-%23f1465a?style=for-the-badge)]([patreon.com/a6xdev](https://patreon.com/a6xdev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink))
 
 **AdvancedDialog** is a versatile plugin for Godot, designed primarily for 3D games, but fully accessible for 2D projects. With this plugin, you can add voice dialogue and subtitles automatically.
 
