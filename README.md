@@ -7,7 +7,7 @@
 - Suporte para multilinguagens
 - Integração Simples
 
-## 1. Como Usar:
+## Como Usar:
 
 ### 2. Instalação
 1. Faça o download do plugin AdvancedDialog e adicione-o ao seu projeto Godot.
@@ -28,3 +28,7 @@
  - Configuração Automática: Ao iniciar a cena, o plugin carrega automaticamente o idioma atual definido nas configurações do jogo.
  - Execução de Diálogos: No AnimationPlayer ou diretamente no script, chame a função playDialog() para iniciar a reprodução do áudio e exibir a legenda.
  - As legendas serão exibidas automaticamente durante a reprodução do áudio, desaparecendo ao final.
+
+ ## Exemplos de Uso:
+
+ 
