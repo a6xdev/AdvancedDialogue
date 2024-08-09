@@ -19,7 +19,7 @@
 ## 4. How to Use
  1. In the Inspector, select the AdvancedDialog node.
  2. Add a new element to the inspector.
-![image](https://github.com/user-attachments/assets/fab6a2bb-76dd-4980-8b05-69ef40655f9a)
+    - ![image](https://github.com/user-attachments/assets/fab6a2bb-76dd-4980-8b05-69ef40655f9a)
  4. Create a new "DialogResource" for each language // **NOTE: You can do this directly in AnimationPlayer to speed up your time :)**
 ![image](https://github.com/user-attachments/assets/cbdaeacb-e572-4ed6-9e4b-f3b0d20106ff)
 
