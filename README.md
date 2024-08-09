@@ -34,5 +34,5 @@
 
 ## 5. Using AdvancedDialog in Cutscenes
  - Automatic Configuration: When starting the scene, the plugin automatically loads the current language defined in the game settings.
- - Dialog Execution: In AnimationPlayer or directly in the script, call the playDialog() function to start playing the audio and display the subtitle.
+ - Dialog Execution: In AnimationPlayer or directly in the script, call the play_dialog() function to start playing the audio and display the subtitle.
  - Subtitles will be automatically displayed during audio playback, disappearing at the end.
