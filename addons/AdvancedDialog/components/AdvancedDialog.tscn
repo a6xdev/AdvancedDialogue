@@ -1,15 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dlg8w3247e1dg"]
+[gd_scene load_steps=2 format=3 uid="uid://dlg8w3247e1dg"]
 
 [ext_resource type="Script" path="res://addons/AdvancedDialog/scripts/components/VoiceDialog.gd" id="1_c6npp"]
-[ext_resource type="Script" path="res://addons/AdvancedDialog/scripts/DialogResource.gd" id="2_rm6aj"]
-
-[sub_resource type="Resource" id="Resource_kqaq1"]
-script = ExtResource("2_rm6aj")
-language = ""
-subtitles = ""
 
 [node name="AdvancedDialog" type="AudioStreamPlayer"]
 script = ExtResource("1_c6npp")
-dialogs = Array[ExtResource("2_rm6aj")]([SubResource("Resource_kqaq1")])
 
 [connection signal="finished" from="." to="." method="AdvancedDialog_finished"]
