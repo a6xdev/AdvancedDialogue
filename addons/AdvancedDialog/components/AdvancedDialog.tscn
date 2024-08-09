@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dlg8w3247e1dg"]
-
-[ext_resource type="Script" path="res://addons/AdvancedDialog/scripts/components/VoiceDialog.gd" id="1_c6npp"]
-
-[node name="AdvancedDialog" type="AudioStreamPlayer"]
-script = ExtResource("1_c6npp")
-
-[connection signal="finished" from="." to="." method="AdvancedDialog_finished"]
