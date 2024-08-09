@@ -4,14 +4,15 @@
 .godot/
 export.cfg
 export_presets.cfg
+icon.svg
+icon.svg.import
+project.godot
+logs/
+default_env.tres
+
 
 # Plugin
 test/
-
-
-# Godot
-logs/
-default_env.tres
 
 # VSCode
 *.vs/
