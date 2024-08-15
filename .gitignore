@@ -1,19 +1,6 @@
-
-
-# Godot-specific ignores
 .godot/
-export.cfg
-export_presets.cfg
+/android/
+test
 icon.svg
 icon.svg.import
 project.godot
-logs/
-default_env.tres
-
-
-# Plugin
-test/
-
-# VSCode
-*.vs/
-.vscode/
