@@ -5,6 +5,8 @@ If you could help me on [Patreon]([patreon.com/a6xdev]) I would greatly apprecia
 
 **AdvancedDialog** adds a component in which you can add audio with dynamic subtitles for multiple languages!
 
+![image](https://pbs.twimg.com/media/GUkmZ8dWsAAMCwC?format=png&name=small)
+
 ## Features:
 
 - Multilingual support
