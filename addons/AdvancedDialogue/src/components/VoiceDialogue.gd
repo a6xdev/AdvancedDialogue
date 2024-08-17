@@ -6,18 +6,26 @@ class_name VoiceDialogue
 @export var resource: Array[VoiceDialogueResource] = []
 
 @export_group("Subtitle")
+@export var SubtitleValue:String = ""
 @export var DisableSubtitle:bool = false
 
 var subtitle
 
 func _ready() -> void:
+	var subtitleDialogue = preload("res://addons/AdvancedDialogue/src/components/SubtitleDialogue.tscn")
+	subtitle = subtitleDialogue.instantiate()
+	add_child(subtitle)
+	subtitle.visible = false
+	connect("finished", Callable(self, "_on_finished"))
+
+func _process(delta: float) -> void:
 	if subtitle != null:
-		pass
+		subtitle.text = SubtitleValue
 
 func PlayDialogue(): # Play the Dialogue
 	var current_locale = get_current_locale()
 	var found_locale = false
-	
+	subtitle.visible = true
 	for dialogue in resource:
 		if dialogue.locale == current_locale:
 			if dialogue.voice:
