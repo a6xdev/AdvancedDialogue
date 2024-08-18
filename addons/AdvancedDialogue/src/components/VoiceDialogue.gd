@@ -5,9 +5,9 @@ class_name VoiceDialogue
 @export var default_language: String = "en"
 @export var resource: Array[VoiceDialogueResource] = []
 
-@export_group("Subtitle")
-@export var SubtitleValue:String = ""
-@export var DisableSubtitle:bool = false
+@export_group("Caption")
+@export var CaptionValue:String = "Hello, World!"
+@export var DisableCaption:bool = false
 
 var subtitle
 
@@ -20,7 +20,7 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	if subtitle != null:
-		subtitle.text = SubtitleValue
+		subtitle.text = CaptionValue
 
 func PlayDialogue(): # Play the Dialogue
 	var current_locale = get_current_locale()
