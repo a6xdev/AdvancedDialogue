@@ -1,7 +1,6 @@
 # AdvancedDialogue
 
 Thanks for visiting my Plugin! :)
-If you could help me on [Patreon]([patreon.com/a6xdev]) I would greatly appreciate it!
 
 # Introduction
 
@@ -30,7 +29,12 @@ If you could help me on [Patreon]([patreon.com/a6xdev]) I would greatly apprecia
 1. Default Language: It is the language to be used if you do not have a language configured in the project settings.
 2. Caption Value: It's the value of the Caption. It can easily change in animation.
 
-# Thank you for using my plugin, any errors or lack of features, please contact me
+# Thank you for using my plugin.
 
-- [Twitter](https://x.com/a6x_as)
-- [Instagram](https://www.instagram.com/ax6dev/?utm_source=ig_web_button_share_sheet)
+If you have a feature request, please open an issue with the label "feature request".
+
+If you are going to report a bug, open an issue with the label "bug".
+
+# Donate
+
+- [Patreon]([patreon.com/a6xdev])
